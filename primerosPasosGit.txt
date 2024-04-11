@@ -1,0 +1,16 @@
+INSTALAR GIT KEEPASSXC
+
+apt update
+apt install keepassxc git
+
+- GIT
+git config --global user.name "docentegit"
+git config --global user.email "docente.git@gmail.com"
+
+echo "# desarrolloweb2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/docentegit/desarrolloweb2.git
+git push -u origin main
